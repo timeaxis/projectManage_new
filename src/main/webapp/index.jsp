@@ -3,7 +3,7 @@
 <html>
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=gbk">
-    <title>登陆页</title>
+    <title>首頁</title>
     <Script language="javascript">
         function check(){
             if(form1.name.value==""){
