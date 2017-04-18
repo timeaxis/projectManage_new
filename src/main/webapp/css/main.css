@@ -1,0 +1,26 @@
+@CHARSET "UTF-8";
+        .main
+        {
+            list-style: none;
+            float: left;
+            margin-left: 20px;
+        }
+        .main li
+        {
+            list-style: none;
+            text-align: left;
+            margin-left: -40px;
+        }
+        .main ul
+        {
+            display: none;
+        }
+        .main a
+        {
+            text-decoration: none;
+        }
+        .main li a
+        {
+            text-decoration: none;
+        }
+   

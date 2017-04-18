@@ -1,0 +1,28 @@
+@CHARSET "UTF-8";
+body{
+	font-size:15px;
+	margin:0px;
+	text-align:center;
+}
+#top{
+	background:url() 0 0 repeat-x;
+}
+#title{
+	float:left;
+	width:200px;
+	height:75px:
+	text-align:left;
+	padding-left:10px;
+}
+#header{
+	height:75px;
+	background:url() no-repeat;
+}
+#middle{
+	height:50px;
+	background:url() no-repeat;
+	border:1px solid #cccccc;
+}
+#footer{
+	background:url() no-repeat;
+}
