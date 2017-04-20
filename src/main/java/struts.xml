@@ -9,6 +9,7 @@
         <action name="login" class="com.xrx.user.action.UserAction" method="login">
             <result name="success" type="redirect" >search.action</result>
             <result name="login">/index.jsp</result>
+
         </action>
 
         <action name="search" class="com.xrx.user.action.UserAction" method="analyticFile">

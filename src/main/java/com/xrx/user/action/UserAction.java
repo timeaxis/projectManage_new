@@ -26,7 +26,8 @@ public class UserAction extends ActionSupport {
     public String login(){
         String result = "success";
         UserService userService = new UserService();
-        if (userService.checkUser(user)){
+        boolean flag = userService.checkUser(user);
+        if (flag){
             HttpSession session = ServletActionContext.getRequest().getSession();
             session.setAttribute("user",user);
             kickOutUser(session,user.getUsername());
