@@ -37,6 +37,13 @@ public class UserAction extends ActionSupport {
         return result;
     }
 
+    public String index(){
+        String result = "success";
+
+        return result;
+    }
+
+
     public String logout() {
         HttpSession session = ServletActionContext.getRequest().getSession();
         session.invalidate();

@@ -1,0 +1,8 @@
+create database xrx;
+--用户表-----------
+create table user(
+    id int primary key not null auto_increment
+    ,username varchar(50) not null
+    ,password varchar(300) not null
+    ,user_type int not null);
+------------------

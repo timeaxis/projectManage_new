@@ -7,13 +7,13 @@
 <struts>
     <package name="user" namespace="/" extends="struts-default">
         <action name="login" class="com.xrx.user.action.UserAction" method="login">
-            <result name="success" type="redirect" >search.action</result>
+            <result name="success" type="redirect" >index.action</result>
             <result name="login">/index.jsp</result>
 
         </action>
 
-        <action name="search" class="com.xrx.user.action.UserAction" method="analyticFile">
-            <result name="success">/WEB-INF/jsp/main.jsp</result>
+        <action name="index" class="com.xrx.user.action.UserAction" method="index">
+            <result name="success">/WEB-INF/jsp/main/main.jsp</result>
         </action>
 
         <action name="logout" class="com.xrx.user.action.UserAction" method="logout">
